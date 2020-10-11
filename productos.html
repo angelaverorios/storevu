@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store VUI</title>
+
+    <style>
+
+ul {
+    display: grid;
+    background:white; 
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    height: 50px;
+}
+
+.container {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+    background: rgb(0, 201, 131) ;
+}
+
+.container img {
+    height: 200px;
+    width: 200px;
+}
+
+#lashes { 
+    display: grid;
+    font-family: 'Times New Roman';
+    justify-items: center;
+    height: 100px;
+}
+
+li{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    justify-items: center;
+    align-items: center;    
+}
+
+li:hover{ 
+    background-color: rgb(0, 201, 131);
+    transition: background-color .5s;
+}
+
+a {
+    text-decoration: none;
+    color: black; 
+}
+.productos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows: auto 1fr;
+    column-gap: 1em;
+    row-gap: 1em;
+}
+
+.productos div {
+    background:rgb(0, 201, 131);
+    padding: 1em;
+}
+
+footer {
+    background: rgb(0, 201, 131);
+    margin-top: 100px;
+ }
+
+ .contenedor-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background: rgb(0, 201, 131);
+    align-items: center;
+    justify-items: center;
+ }
+
+ footer ul {
+    background-color: rgb(0, 201, 131);
+    margin: 20px;
+    justify-items: center;
+    align-items: center;
+ }
+
+    
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img class="logo" src="./img/storevu4.png">
+    </div>
+
+    </div>
+    <nav class="navegacion">
+
+        <ul>
+            <li> <a href="#"> Inicio </a></li>
+            <li> <a href="#"> Sobre nosotros </a></li>
+            <li> <a href="#"> Productos </a></li>
+            <li> <a href="#"> Contacto </a></li>
+            <li> <a href="#"> Origenes </a></li>
+        </ul>
+
+    </nav> 
+
+    <div class="productos">
+        <div>Harina Pan 1KG: 140$. 
+        </div>
+        <div>Queso Llanero 1KG: 250$.</div>
+        <div>Malta 300ml: 90$.</div>
+        <div>Salsa de ajo: 150$.</div>
+        <div>Pan dulce 1KG: 200$.</div>
+        <div>Cafe 1KG: 150$.</div>
+        <div>Cafetera: 1000$.</div>
+        <div>Quesillera: 400$.</div>
+        <div>Colador: 200$.</div>
+        <div>Chuleta ahumada; 200$.</div>
+        <div>Tres leches: 150$</div>
+        <div>Quesillo: 300$.</div>
+        <div> Porotos negros: 270$. </div>
+        <div> Leche en polvo 1KG: 400$.
+        </div>
+        <div>Queso palmizulia 1KG: 300$.</div>
+    </div>
+    
+
+    <footer>
+        <div class="contenedor-footer">
+
+            <div>
+                <h4> Informacion sobre la tienda</h4>
+                <ul>
+                    📱 +598 92 080 342</ul>
+                <ul> 📩 storevu@gmail.com </ul>
+            </div>
+
+            <div>
+                <h4> Informacion</h4>
+                <ul>Delivery</ul>
+                <ul>Politicas de la tienda </ul>
+                <ul> Reclamos</ul>
+            </div>
+
+            <div>
+                <h4> Ubicacion</h4>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13088.097166429285!2d-56.1893282!3d-34.9058399!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4cc1cbfbd012c4aa!2sStore%20VU!5e0!3m2!1ses!2suy!4v1602023841491!5m2!1ses!2suy"
+                    width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                    tabindex="0"></iframe>
+            </div>
+
+
+
+
+        </div>
+
+    </footer>
+
+</body>
+</html>
